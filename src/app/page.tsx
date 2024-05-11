@@ -1,6 +1,10 @@
+'use client'
 import FeaturedCourse from "@/components/FeaturedCourse";
 import HeroSection from "@/components/HeroSection";
-import Image from "next/image";
+import Testimonial from "@/components/Testimonial";
+import { UpcomingWeb } from "@/components/UpcomingWeb";
+import {WhyChooseUs} from "@/components/WhyChooseUs";
+
 
 export default function Home() {
   return (
@@ -8,6 +12,9 @@ export default function Home() {
       {/* <h1 className="text-2xl text-center text-white ">Chain aiur njn</h1> */}
        <HeroSection/>
        <FeaturedCourse/>
+       <WhyChooseUs/>
+       <Testimonial/>
+       <UpcomingWeb/>
     </main>
     
   );
